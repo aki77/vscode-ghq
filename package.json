@@ -1,0 +1,60 @@
+{
+  "name": "ghq",
+  "displayName": "ghq",
+  "description": "ghq interface for Visual Studio Code",
+  "version": "0.1.0",
+  "publisher": "aki77",
+  "engines": {
+    "vscode": "^1.78.0"
+  },
+  "categories": [
+    "Other"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/aki77/vscode-ghq.git"
+  },
+  "bugs": {
+    "url": "https://github.com/aki77/vscode-ghq/issues"
+  },
+  "license": "MIT",
+  "main": "./out/extension.js",
+  "contributes": {
+    "commands": [
+      {
+        "command": "ghq.open",
+        "title": "Open Repository",
+        "category": "GHQ"
+      },
+      {
+        "command": "ghq.openInNewWindow",
+        "title": "Open Repository in New Window",
+        "category": "GHQ"
+      },
+      {
+        "command": "ghq.openInBrowser",
+        "title": "Open Repository in Browser",
+        "category": "GHQ"
+      },
+      {
+        "command": "ghq.addToWorkSpace",
+        "title": "Add Repository to Current Workspace",
+        "category": "GHQ"
+      }
+    ]
+  },
+  "scripts": {
+    "vscode:prepublish": "yarn run compile",
+    "compile": "tsc -p ./",
+    "watch": "tsc -watch -p ./",
+    "lint": "eslint src --ext ts"
+  },
+  "devDependencies": {
+    "@types/node": "16.x",
+    "@types/vscode": "^1.78.0",
+    "@typescript-eslint/eslint-plugin": "^5.59.1",
+    "@typescript-eslint/parser": "^5.59.1",
+    "eslint": "^8.39.0",
+    "typescript": "^5.0.4"
+  }
+}
