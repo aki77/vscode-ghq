@@ -40,6 +40,11 @@
         "command": "ghq.addToWorkSpace",
         "title": "Add Repository to Current Workspace",
         "category": "GHQ"
+      },
+      {
+        "command": "ghq.openFileInCurrentWindow",
+        "title": "Open File in Current Window",
+        "category": "GHQ"
       }
     ]
   },
