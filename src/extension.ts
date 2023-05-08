@@ -65,7 +65,7 @@ const openInBrowser = async () => {
   }
 
   const webUri = 'https://' + uri.path.split('/').slice(-3).join('/');
-  return vscode.commands.executeCommand('vscode.open', vscode.Uri.parse(webUri));
+  return vscode.env.openExternal(vscode.Uri.parse(webUri));
 };
 
 const addToWorkSpace = async () => {
