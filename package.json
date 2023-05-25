@@ -45,6 +45,11 @@
         "command": "ghq.openFileInCurrentWindow",
         "title": "Open File in Current Window",
         "category": "GHQ"
+      },
+      {
+        "command": "ghq.get",
+        "title": "Clone/sync with a remote repository",
+        "category": "GHQ"
       }
     ]
   },

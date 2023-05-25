@@ -6,6 +6,12 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 
 ## [Unreleased]
 
+## [0.3.0]
+
+### Added
+
+- `ghq.get` command.
+
 ## [0.2.2]
 
 ### Changed
