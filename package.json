@@ -2,7 +2,7 @@
   "name": "ghq",
   "displayName": "ghq",
   "description": "ghq interface for Visual Studio Code",
-  "version": "0.2.2",
+  "version": "0.3.0",
   "publisher": "aki77",
   "engines": {
     "vscode": "^1.78.0"
