@@ -11,6 +11,9 @@ This extension provides the following commands:
 - `ghq.openInBrowser`: Open a repository in the browser.
 - `ghq.addToWorkspace`: Add a repository to the current workspace.
 - `ghq.openFileInCurrentWindow`: Open a file in the current window.
+- `ghq.get`: Clone/sync with a remote repository
+
+  _If an active text editor has an npm or RubyGems package open, we will suggest the repository URL as the default value by guessing it._
 
 ## Requirements
 
